@@ -8,7 +8,6 @@ public class Deck {
   public void show() {
     
   }
-  /*
   public static void deal() {
      int[] cardlist = new int[7];
      int i = 0;
@@ -36,7 +35,6 @@ public class Deck {
     }
     return false;
   }
-  */
   public void deal(Hand hand) {
      Card[] cardlist = new Card[7];
      int i = 0;
