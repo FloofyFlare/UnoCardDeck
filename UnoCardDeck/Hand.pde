@@ -6,7 +6,10 @@ public class Hand {
   }
   
   public void show() {
-    
+        int x = 50;
+    int y = 550;
+    for ( int i = 0; i < cards.length; i++){
+   cards[i].show(x , y);
   }
   
   public void place() {
